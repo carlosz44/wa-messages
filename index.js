@@ -7,7 +7,7 @@ const client = require("twilio")(accountSid, authToken);
 client.messages
   .create({
     from: `whatsapp:+${process.env.FROM_NUMBER}`,
-    body: "probando el envío automatizado para WhatsApp final",
+    body: "probando el envío automatizado para WhatsApp",
     to: `whatsapp:+${process.env.TO_NUMBER}`,
   })
   .then((message) => console.log(message.sid));
