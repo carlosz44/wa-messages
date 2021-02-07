@@ -4,7 +4,7 @@ Automated WhatsApp messages from NodeJS.
 
 ## Getting Started
 
-First, run the development server:
+First, install dependencies:
 
 ```bash
 npm i
@@ -12,7 +12,7 @@ npm i
 yarn
 ```
 
-Create an account in [Twilio](https://www.twilio.com/try-twilio), activate [Sandbox for WhatsApp](https://www.twilio.com/console/sms/whatsapp/sandbox), take note of your WhatsApp sender number and setup the enviroment variables: 
+Then create an account in [Twilio](https://www.twilio.com/try-twilio), activate [Sandbox for WhatsApp](https://www.twilio.com/console/sms/whatsapp/sandbox), take note of your WhatsApp sender number and setup the enviroment variables: 
 
 ```bash
 TWILIO_ACCOUNT_SID='xxxxxxxxx'
@@ -21,4 +21,11 @@ FROM_NUMBER='xxxxxxxxx'
 TO_NUMBER='xxxxxxxxx'
 ```
 
-Run `index.js`.
+Finally run `index.js`.
+
+## Learn More
+
+To learn more, take a look at the following resources:
+
+- [Twilio Node Helper](https://www.twilio.com/docs/libraries/node) - documentation abouth the NodeJS helper library.
+- [Getting started with Node.js](https://nodejs.org/en/docs/guides/getting-started-guide/).
