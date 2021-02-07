@@ -27,5 +27,5 @@ Finally run `index.js`.
 
 To learn more, take a look at the following resources:
 
-- [Twilio Node Helper](https://www.twilio.com/docs/libraries/node) - documentation abouth the NodeJS helper library.
+- [Twilio Node Helper](https://www.twilio.com/docs/libraries/node) - documentation about the NodeJS helper library.
 - [Getting started with Node.js](https://nodejs.org/en/docs/guides/getting-started-guide/).
